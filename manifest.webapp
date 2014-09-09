@@ -1,0 +1,19 @@
+{
+  "name": "Notr",
+  "version": "1.0",
+  "description": "An app to take notes",
+  "launch_path": "/index.html",
+  "permissions": {
+    "storage": {
+    "description": "Required for storing and retrieving notes."
+    }
+  },
+  "developer": {
+  "name": "Wellington Mitrut",
+  "url": "http://wmitrut.github.io"
+  },
+  "icons": {
+  "60": "/img/icons/icon_60.png",
+  "128": "/img/icons/icon_128.png"
+  }
+}
