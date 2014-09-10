@@ -1,5 +1,21 @@
-header{
+.navbar{
   background:#1DB054;
   padding:2%;
   width:100%;
+  border:none;
+  border-radius:0;
+}
+.navbar-brand{
+  color:#fff !important;
+  font-family: 'Pacifico', cursive;
+  font-size:30px;
+}
+.navbar-toggle.collapsed{
+  color:#fff !important
+  transition: 200ms ease;
+
+}
+.navbar-toggle.collapsed:hover{
+  background: #00C956;
+  color:#fff !important;
 }

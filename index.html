@@ -5,27 +5,34 @@
     <meta charset="utf-8">
     <meta http-equiv="pragma" content="no-cache">
     <script src="/js/model.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-theme.css">
+    <link rel="stylesheet" href="./css/application.css">
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <title>Notr</title>
+
 </head>
 
 <body role="application">
-<header>
 
-</header>
-
-
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="glyphicon glyphicon-plus"><a id="new-memo" href="#"><span class="icon icon-add"></span></a></span>
+      </button>
+      <a class="navbar-brand" href="#">Notr</a>
+    </div>
+  </div>
+</nav>
 
 
 
 
 <section role="region" id="memo-list">
-    <header>
-        <menu type="toolbar">
-            <a id="new-memo" href="#"><span class="icon icon-add">add</span></a>
-        </menu>
-        <h1>Notr</h1>
 
-    </header>
     <article id="memoList" data-type="list"></article>
 </section>
 
